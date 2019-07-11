@@ -32,11 +32,17 @@
  * Support and FAQ: visit <a href="https://www.microchip.com/support/">Microchip Support</a>
  */
 #include <asf.h>
+#include <sam>;
 
 int main (void)
 {
+	
+	usart_inst_t serial_PC;
+	char msg[] = "Hello world!";
+	
 	system_init();
-
+	
+	usart_serial_init(serial_PC,)
 	/* Insert application code here, after the board has been initialized. */
 
 	/* This skeleton code simply sets the LED to the state of the button. */
@@ -49,5 +55,7 @@ int main (void)
 			/* No, so turn LED off. */
 			port_pin_set_output_level(LED_0_PIN, !LED_0_ACTIVE);
 		}
+		_write();
 	}
+	
 }
