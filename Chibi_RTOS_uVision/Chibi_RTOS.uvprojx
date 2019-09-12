@@ -379,26 +379,6 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Chibi_Kernel</GroupName>
-          <Files>
-            <File>
-              <FileName>Chibi_kernel.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Chibi_kernel.c</FilePath>
-            </File>
-            <File>
-              <FileName>Chibi_kernel.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Chibi_kernel.s</FilePath>
-            </File>
-            <File>
-              <FileName>Chibi_kernel.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Chibi_kernel.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>LASSAT_core_func</GroupName>
           <Files>
             <File>
@@ -410,6 +390,26 @@
         </Group>
         <Group>
           <GroupName>Payload_handler</GroupName>
+        </Group>
+        <Group>
+          <GroupName>Kernel</GroupName>
+          <Files>
+            <File>
+              <FileName>osKernel.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\osKernel.c</FilePath>
+            </File>
+            <File>
+              <FileName>osKernel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\osKernel.h</FilePath>
+            </File>
+            <File>
+              <FileName>osKernel.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\osKernel.s</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
